@@ -23,6 +23,7 @@
                 <li><a href="#carros">CARROS</a></li>
                 <li><a href="#blog">LOCALIDADES</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#agenda">AGENDA</a></li>
             </ul>
         </div>
 
@@ -69,28 +70,36 @@
 
     <div class="row">
         <div class="campus-col">
-            <img src="img/image3.jpg" alt="">
-            <div class="layer">
-                <h3>Monterrey</h3>
-            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Mercedes-Benz+Villauto+Monterrey&query_place_id=ChIJyYIALVu-YoYR9DcARUMoUUI" target="_blank">
+                <img src="img/image3.jpg" alt="Mercedes-Benz Monterrey">
+                <div class="layer">
+                    <h3>Monterrey</h3>
+                </div>
+            </a>
         </div>
 
         <div class="campus-col">
-            <img src="img/image4.jpg" alt="">
-            <div class="layer">
-                <h3>Matamoros</h3>
-            </div>
+            <a href="https://www.google.com/maps/place/Mercedes-Benz+Autosat+Vallejo/@19.4317754,-104.070052,7z/data=!3m1!5s0x85d1f855b5a28dd5:0x9b8a28dc3758251e!4m10!1m2!2m1!
+            1smercedes+benz+ciudad+de+mexico!3m6!1s0x85d1f8543f935c31:0xd95086e2af441ef8!8m2!3d19.4825206!4d-99.1497308!15sCh5tZXJjZWRlcyBiZW56IGNpdWRhZCBkZSBtZXhpY28iA4gBAVogIh5tZXJjZWRlcyBiZW56IGNpdWRhZCBkZSBtZXhpY2-
+            SAQpjYXJfZGVhbGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU15Y1hWbVNWQm5FQUXgAQD6AQQIABA1!16s%2Fg%2F11bx45rm5l?entry=ttu&g_ep=
+            EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" target="_blank">
+                <img src="img/image4.jpg" alt="Mercedes-Benz Matamoros">
+                <div class="layer">
+                    <h3>Ciudad de Mexico</h3>
+                </div>
+            </a>
         </div>
 
         <div class="campus-col">
-            <img src="img/image5.jpg" alt="">
-            <div class="layer">
-                <h3>Texas</h3>
-            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Mercedes-Benz+of+San+Juan+Texas&query_place_id=ChIJ-WgrkQ6gZYYRLGIUWXFgYDc" target="_blank">
+                <img src="img/image5.jpg" alt="Mercedes-Benz Texas">
+                <div class="layer">
+                    <h3>Texas</h3>
+                </div>
+            </a>
         </div>
     </div>
 </section>
-
 
 <section class="facilities" id="carros">
     <h1>Modelos Más Destacados</h1>
@@ -144,17 +153,49 @@
 
     <h1>Contáctanos y vive la experiencia Mercedes-Benz</h1>
     <a href="#" class="hero-btn">Contáctanos</a>
+    
 </section>
 
 
+<!--apartado de agendas-->
+<section class="course" id="agenda">
+    <h1>Planifica tu Experiencia Mercedes</h1>
+    <em>Organiza tus pruebas de manejo y visitas a nuestras localidades.</em>
+
+    <div class="row" style="justify-content: center;"> 
+        <div class="contact-col">
+            <div class="task-input-container">
+                <input type="text" id="taskInput" placeholder="Ej: Agendar prueba de manejo Clase G...">
+                <button id="addTaskBtn" class="hero-btn red-btn" style="color: black !important; border-color: black;">Agregar Tarea</button>
+            </div>
+            
+            <ul id="taskList" style="list-style: none; margin-top: 30px; padding: 0;">
+                </ul>
+        </div>
+    </div>
+</section>
+
+<script src="app.js"></script>
+
+ 
+<!--apartado de redes sociales con links-->
 <section class="footer">
-    <h4>Acerca de Nosotros</h4>
-    <p>Innovación, lujo y tecnología para definir el futuro de la movilidad.</p>
+    <h4>Síguenos en nuestras redes</h4>
+    <p>Conéctate con la innovación y el lujo de Mercedes-Benz.</p>
 
     <div class="icons">
-        <a href="https://www.facebook.com/MercedesBenzMX/?locale=es_LA" target="_blank">Facebook</a><br>
-        <a href="https://www.instagram.com/mercedesbenzmx/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/MercedesBenzMX/?locale=es_LA" target="_blank" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/mercedesbenzmx/" target="_blank" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/mercedesbenzmx" target="_blank" aria-label="X (Twitter)">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
     </div>
+    
+    <p class="copyright">© 2026 Mercedes-Benz México. Todos los derechos reservados.</p>
 </section>
 
 
