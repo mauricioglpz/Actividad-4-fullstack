@@ -1,4 +1,4 @@
-# Actividad-1-Fullstack
+# Actividad-3-Fullstack-instrucciones
 
 # Mercedes-Benz Web Page
 
@@ -12,16 +12,10 @@ Este proyecto es una página web estática inspirada en la marca Mercedes-Benz, 
 
 
 
-## Descripción
+## Descripción y uso de la actividad 3
 
-* **index.html** contiene la estructura principal del sitio web.
-* **style.css** define el diseño visual, el diseño responsivo y los estilos generales.
-* **img/** almacena las imágenes utilizadas en la página.
 
-## Uso
-
-Abrir el archivo `index.html` en un navegador web o visualizar el proyecto mediante GitHub Pages.
+Abrir el proyecto en visual studio, despues, los archivos que estan en carpetas, como lo son middleware,routes y api-tareas, deben ir en una misma carpeta pero separadas por diferentes carpetas, o sea , se crea una carpeta dentro del proyecto llamada api-tareas, despues dentro de esa carpeta se crean dos mas llamadas `middleware`, donde se colocan todos los archivos que tengan middleware en su nombre, despues otra carpeta llamada `routes` donde se agregaran `auth.js` y `tareas.js`, en la carpeta api-tareas se dejaran los otros archivos (server.js, package.js, tareas.json, usuarios.js, package-lock.json) , despues de eso, se abrira la terminal y utilizando el comando npm install, despues se descargaran archivos, se podra ejecutar el codigo, y de ahi se seguiran las instrucciones del documento y visualizar el uso de CRUD.
 
 ## Autor
-
 Mauricio Gudiño Lopez
